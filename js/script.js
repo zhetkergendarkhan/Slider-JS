@@ -41,7 +41,7 @@ function showSlides(n) {
         links[i].className = links[i].className.replace(" active", "")
     }
 
-    setTimeout(plusSlide,5000)
+    // setTimeout(plusSlide,5000)
 
     slides[slideIndex - 1].style.display = "block"
     projectsItems[slideIndex - 1].style.display = "flex"
