@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Slider</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="page">
+    <section class="section-projects">
+        <div class="container">
+            <div class="projects__inner">
+                <ul class="projects__nav">
+                    <li><a class="projects__link " onclick="currentSlides(1)">Rostov-on-Don, Admiral</a></li>
+                    <li><a class="projects__link" onclick="currentSlides(2)">Sochi Thieves</a></li>
+                    <li><a class="projects__link" onclick="currentSlides(3)">Rostov-on-Don Patriotic</a></li>
+                </ul>
+
+                <div class="projects__content">
+                    <div class="projects__left">
+                        <h1 class="title projects__title">Completed <br> projects</h1>
+                        <h1 class="subtitle projects__subtitle">Only a small part of the work performed by our
+                            company
+                            is
+                            presented <br> on the site.
+                            For 14 years on in the construction<br> market we have made happy more than 1000
+                            families
+                        </h1>
+                        <div class="projects__table show_on_desktop">
+                            <div class="projects__table-items">
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">City:</h1>
+                                    <p class="projects__table-subtitle">Rostov-on-Don<br/>LCD admiral</p>
+                                </div>
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">apartment area:</h1>
+                                    <p class="projects__table-subtitle">81 m2</p>
+                                </div>
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">Repair time:</h1>
+                                    <p class="projects__table-subtitle">3.5 months</p>
+                                </div>
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">Repair Cost:</h1>
+                                    <p class="projects__table-subtitle">Upon request</p>
+                                </div>
+                            </div>
+
+                            <div class="projects__table-items">
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">City:</h1>
+                                    <p class="projects__table-subtitle">Sochi<br/>Thieves</p>
+                                </div>
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">apartment area:</h1>
+                                    <p class="projects__table-subtitle">105 m2</p>
+                                </div>
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">Repair time:</h1>
+                                    <p class="projects__table-subtitle">4 months</p>
+                                </div>
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">Repair Cost:</h1>
+                                    <p class="projects__table-subtitle">Upon request</p>
+                                </div>
+                            </div>
+
+                            <div class="projects__table-items">
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">City:</h1>
+                                    <p class="projects__table-subtitle">Rostov-on-Don<br/>Patriotic</p>
+                                </div>
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">apartment area:</h1>
+                                    <p class="projects__table-subtitle">93 m2</p>
+                                </div>
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">Repair time:</h1>
+                                    <p class="projects__table-subtitle">3 months</p>
+                                </div>
+                                <div class="projects__table-item">
+                                    <h1 class="projects__table-title">Repair Cost:</h1>
+                                    <p class="projects__table-subtitle">Upon request</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__slider">
+                            <a onclick="minusSlide()" class="projects__slider-button"><img src="./img/left.png" alt="left"/></a>
+                            <div class="slider-dots">
+                                <span class="slider-dots_item" onclick="currentSlides(1)"></span>
+                                <span class="slider-dots_item" onclick="currentSlides(2)"></span>
+                                <span class="slider-dots_item" onclick="currentSlides(3)"></span>
+                            </div>
+                            <a onclick="plusSlide()" class="projects__slider-button"><img src="./img/right.png" alt="right"/></a>
+                        </div>
+                    </div>
+
+                    <div class="projects__right show_on_desktop">
+                        <div class="projects__right-item">
+                            <img src="img/1.png" alt="Первый слайд">
+                        </div>
+
+                        <div class="projects__right-item">
+                            <img src="img/2.png" alt="Второй слайд">
+                        </div>
+
+                        <div class="projects__right-item">
+                            <img src="img/3.png" alt="Третий слайд">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="./js/script.js"></script>
+</body>
+</html>
